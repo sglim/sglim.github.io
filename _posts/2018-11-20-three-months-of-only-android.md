@@ -6,7 +6,7 @@ date      : 2018-11-20 22:40:00 +0900
 categories: computer science
 ---
 
-Since October I have been doing one thing. Android. Only Android. For the travel app that I used to lead and then left for IoT and blockchain and now came back to as a regular engineer on the mobile team.
+Since October I have been doing one thing. Android. Only Android. For the travel app that I used to lead, then left for the blockchain task force, and now came back to as a regular engineer on the mobile team while it settles into its new company.
 
 It is a good change. Let me explain why being "just" an Android engineer for a while is exactly what I needed.
 

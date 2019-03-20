@@ -28,7 +28,7 @@ At Momenti I was Technical Architect for an interactive media format. Video that
 
 ## <a name="hardware"></a>A smart plug that actually shipped
 
-I led the IoT team at Skelter Labs that built Brilli, a smart power socket. In boxes, in living rooms, not a demo. [MQTT and RabbitMQ]({% post_url 2018-06-15-smart-sockets-and-two-ender-3s %}) on the back, a Kotlin device server, BLE on the phone, and firmware updates designed to never brick anything. The two 3D printers we bought for prototype enclosures became a [hobby I still have]({% post_url 2019-07-10-the-ender-5-arrived %}).
+In 2019 I led the IoT team at Skelter Labs that built Brilli, a smart power socket. In boxes, in living rooms, not a demo. [MQTT and RabbitMQ]({% post_url 2018-06-15-smart-sockets-and-two-ender-3s %}) on the back, a Kotlin device server, BLE on the phone, and firmware updates designed to never brick anything. The two 3D printers we bought for prototype enclosures became a [hobby I still have]({% post_url 2019-07-10-the-ender-5-arrived %}).
 
 ## <a name="kyte"></a>A flight search app with a lot of data behind it
 

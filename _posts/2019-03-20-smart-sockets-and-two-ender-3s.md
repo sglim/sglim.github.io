@@ -2,13 +2,13 @@
 layout    : post
 title     : "Smart sockets and two Ender-3s"
 author    : Dennis Lim
-date      : 2018-06-15 22:50:00 +0900
+date      : 2019-03-20 22:50:00 +0900
 categories: computer science
 ---
 
-I'm the tech lead of an IoT team now. That sentence would have surprised me a year ago. The travel app is in good hands with the team that grew around it, and the company wanted to try hardware. Smart power sockets, specifically. The kind you plug a lamp into and then control from your phone, except we want the socket to be smart about what is plugged into it.
+I'm the tech lead of an IoT team now. That sentence would have surprised me a year ago. Kyte is its own company now, the blockchain task force wrapped up in the fall, and the company wanted to try hardware. Smart power sockets, specifically. The kind you plug a lamp into and then control from your phone, except we want the socket to be smart about what is plugged into it.
 
-So for the last few months my life has been Bluetooth, gRPC over weird transports, and a gateway that sits between little devices and the cloud.
+So since January my life has been Bluetooth, gRPC over weird transports, and a gateway that sits between little devices and the cloud.
 
 Some things about hardware that software people (me, three months ago) do not know:
 
@@ -20,7 +20,7 @@ The physical world is noisy. Power measurements jump around. Wi-Fi drops when th
 
 And then there are the printers.
 
-We bought two Ender-3s for the project. Cheap 3D printers, a couple hundred dollars each. The idea was to print enclosures for prototype boards instead of waiting weeks for a case. That is what they are for. That is not what happened.
+The company bought two Ender-3s for the project last year, before I joined it. Cheap 3D printers, a couple hundred dollars each. The idea was to print enclosures for prototype boards instead of waiting weeks for a case. That is what they are for. That is not what happened.
 
 What happened is that I started printing everything. Cable clips. A phone stand. A better spool holder for the printer itself, which is a very 3D printing thing to do. At the demo day last quarter I was officially listed as the mechanical engineer, which is generous, but I did design and print the stand that held the demo together.
 

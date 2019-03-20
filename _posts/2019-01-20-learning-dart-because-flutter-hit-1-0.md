@@ -6,7 +6,7 @@ date      : 2019-01-20 22:15:00 +0900
 categories: computer science
 ---
 
-Flutter 1.0 came out in December. In January I'm on a new team building a new app with it. The timing is not a coincidence. We had a project starting, a consumer app that needed iOS and Android at the same time with a small team, and somebody said "what if we just try it". That somebody might have been me.
+Flutter 1.0 came out in December. In January I moved to the IoT team, and the first thing it needs is an app for the smart socket we are building. iOS and Android at the same time, a small team, a deadline. Somebody said "what if we just try Flutter". That somebody might have been me.
 
 So now I am learning Dart. My last new language was Kotlin. Before that Swift. Before that I did not count because they were all C-shaped anyway.
 
