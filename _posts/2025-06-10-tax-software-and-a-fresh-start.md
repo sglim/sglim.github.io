@@ -14,13 +14,15 @@ I have spent a decade on products I could explain to my parents in one sentence.
 
 I like that kind of problem. It is the hotel matching problem with higher stakes. Identity, consistency, sources that disagree, and a ground truth that lives in a government system you do not control.
 
-My role is broad. Infrastructure first, because the company grew fast and the infrastructure grew with it in the way infrastructure does when nobody is the infrastructure person. Kubernetes, deployment, secrets, the internal git server, who can access what. Then, once that is calm, the integration work with the national tax service, which is its own adventure that will get its own post.
+The arrangement is unusual and I like it. I am not an employee yet. I am coming in as a contractor for a few months, with the understanding on both sides that if it works, I take the CTO seat. A trial. They get to see how I actually operate before handing me the engineering org, and I get to see the codebase, the team, and the founders before I commit years to them. After the last job I wanted exactly this and I did not expect anyone to agree to it.
+
+So while we figure each other out, I am picking up the work nobody owns. Infrastructure first, because the company grew fast and the infrastructure grew with it in the way infrastructure does when nobody is the infrastructure person. Kubernetes, deployment, secrets, the internal git server, who can access what. It is also the fastest way to learn how a company really works. Read the deploy pipeline and you know what the team values. Then the integration work with the national tax service, which is its own adventure that will get its own post.
 
 First weeks, what I found:
 
 A lot of things that work and nobody knows why. This is normal at a company this age. Someone set it up, it worked, they moved on. My first month is mostly writing down why.
 
-A team that is good and busy. Nobody has time for the infrastructure work, which is why it exists as a job now. I am not going to be precious about it. Unglamorous work is the thing I am apparently for.
+A team that is good and busy. Nobody has time for the infrastructure work, which is why it is the first thing I am touching. I am not going to be precious about it. Unglamorous work is the thing I am apparently for, and it is a good way to earn a room before you try to lead it.
 
 AI in the workflow, for real. In New York we used the assistants a bit. Here the team has built the way they work around them. Agents run in the repo, review comments come from a bot before a human, and the commit history has a texture I have never seen. Hundreds of small, well described commits a week from one person. I have opinions forming about this and they are not settled yet. Ask me in six months.
 
@@ -32,4 +34,4 @@ What I am learning:
 
 Korean tax law, badly, one term at a time. My notes file is mostly definitions. I now know what a simplified taxpayer is and I did not need to know that for thirty nine years.
 
-Fresh start, domain I do not know, infrastructure nobody wants to own. On paper it is not exciting. In practice I have not been this curious about a job in a while. Let's see if it lasts.
+Fresh start, domain I do not know, a trial run at a job I have done once before and want to do better. On paper it is not exciting. In practice I have not been this curious about a job in a while. Let's see if it lasts.
