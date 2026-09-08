@@ -6,7 +6,7 @@ date      : 2020-06-15 23:20:00 +0900
 categories: life
 ---
 
-Two months into the new job. Except it is not really a new job. It is the same product I started in 2016, in a new company that was spun out to focus on it, and my title is now CTO.
+Two months into the new job. Except it is not really a new job. It is the same product I started in 2016, at the company it was spun out into two years ago, and my title is now CTO.
 
 I want to be honest about what that title means at this size, because I had a picture in my head and the picture was wrong.
 

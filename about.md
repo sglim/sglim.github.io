@@ -20,7 +20,7 @@ Accountants think in spreadsheets. Instead of translating their workbooks into c
 
 I came back from New York a skeptic and changed my mind within a quarter. Most of our code is now written by agents, at a pace of [thousands of small commits a month]({% post_url 2026-06-25-two-thousand-commits-in-two-months %}). All of it is reviewed by a human who has to be able to explain it, and that human is usually me. The bottleneck moved from typing to understanding. I think that is the biggest change to this job since code review itself, and it has already [bitten me once]({% post_url 2026-08-10-dont-log-the-whole-cookie %}) in an instructive way.
 
-This is not my first time around AI. At Skelter Labs I worked on Iris, a hyper-personalization engine built on the company's machine learning research, and on Meerkat, the consumer app we built to put Iris in front of real people. Flutter on the front, TypeScript on the back, a lot of arguing about what "personal" should feel like.
+This is not my first time around AI. At Skelter Labs I worked on Iris, a hyper-personalization engine built on the company's machine learning research, and then led Meerkat, a taste-based social service built on top of Iris to put that personalization in front of real people. It was the last thing I did at Skelter and the most product-shaped. Flutter on the front, TypeScript on the back, a lot of arguing about what "personal" should feel like.
 
 ## <a name="momenti"></a>A video format you can touch
 
@@ -32,11 +32,11 @@ I led the IoT team at Skelter Labs that built Brilli, a smart power socket. In b
 
 ## <a name="kyte"></a>A flight search app with a lot of data behind it
 
-I was engineer number five at Skelter Labs, a startup founded by ex-Googlers, and tech lead of Kyte, a flight search app that passed two hundred thousand downloads. Node.js servers, [Swift and Kotlin clients]({% post_url 2017-10-30-kotlin-anko-and-rxjava2-on-android %}), and a Spark pipeline that pulled tens of gigabytes of airline fares every day and served the interesting parts to a phone in milliseconds. I set up the ELK stack and [watched the GeoIP dots appear]({% post_url 2016-07-25-logstash-geoip-and-the-first-server-i-owned %}), and learned that the worst bugs in a data product [are absences, not crashes]({% post_url 2016-11-20-why-is-shanghai-missing %}). Four years, [written up here]({% post_url 2020-04-03-leaving-skelter-labs-after-four-years %}).
+I was engineer number five at Skelter Labs, a startup founded by ex-Googlers, and tech lead of Kyte, a flight search app that passed two hundred thousand downloads. Node.js servers, [Swift and Kotlin clients]({% post_url 2017-10-30-kotlin-anko-and-rxjava2-on-android %}), and a Spark pipeline that pulled tens of gigabytes of airline fares every day and served the interesting parts to a phone in milliseconds. I set up the ELK stack and [watched the GeoIP dots appear]({% post_url 2016-07-25-logstash-geoip-and-the-first-server-i-owned %}), and learned that the worst bugs in a data product [are absences, not crashes]({% post_url 2016-11-20-why-is-shanghai-missing %}). I led Kyte until it spun out of Skelter Labs into its own company in early 2018, then stayed at Skelter for the blockchain task force, the IoT team, and Meerkat, in that order. Four years total, [written up here]({% post_url 2020-04-03-leaving-skelter-labs-after-four-years %}).
 
 ## <a name="squarelab"></a>Former CTO of a travel company
 
-When Kyte spun out into Squarelab in 2020, I became [CTO]({% post_url 2020-06-15-cto-of-a-spinoff %}). Twenty plus engineers, two products, and the travel industry frozen by a pandemic. We built [hotel search on top of flight search]({% post_url 2020-12-20-hotels-are-harder-than-flights %}), a push system for deals, web versions of both apps, and a Kubernetes platform. I [still wrote YAML]({% post_url 2021-04-25-a-cto-who-still-writes-yaml %}). I think that was right.
+Kyte spun out of Skelter Labs into Squarelab in 2018. Two years later, in 2020, I followed it there and became [CTO]({% post_url 2020-06-15-cto-of-a-spinoff %}). Twenty plus engineers, two products, and the travel industry frozen by a pandemic. We built [hotel search on top of flight search]({% post_url 2020-12-20-hotels-are-harder-than-flights %}), a push system for deals, web versions of both apps, and a Kubernetes platform. I [still wrote YAML]({% post_url 2021-04-25-a-cto-who-still-writes-yaml %}). I think that was right.
 
 ## <a name="games"></a>An MMO server
 
