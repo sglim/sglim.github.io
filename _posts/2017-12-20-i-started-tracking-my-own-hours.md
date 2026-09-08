@@ -10,7 +10,7 @@ Since the start of this year I have been writing down what I work on. Not for th
 
 I want to explain why, and what a year of it showed me.
 
-The why goes back a while. My first real program that other people used was in the air force. I was a computer specialist, which mostly meant fixing printers, but at some point I built an emergency contact system for the whole branch. Who to call, in what order, when something happens at 3am. It was not sophisticated. It was used. I remember a general shaking my hand about it and someone taking a photo, and I remember thinking: I have no idea how many hours that took me. I could not have told you if it was forty or four hundred. That bothered me for years.
+The why goes back a while. My first real program that other people used was in the air force. I was a computer specialist, which mostly meant fixing printers, but at some point I built an emergency contact system for the whole branch. Who to call, in what order, when something happens at 3am. It was not sophisticated. It was used. I remember the Air Force Chief of Staff, the top officer in the whole branch, handing me an award for it, and a lunch afterward with about twenty people where I was the only one without rank that mattered. Someone took a photo. And I remember thinking: I have no idea how many hours that took me. I could not have told you if it was forty or four hundred. That bothered me for years.
 
 So this January I started counting.
 
