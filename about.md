@@ -42,7 +42,7 @@ Engineer number five at Skelter Labs, founded by ex-Googlers. Tech lead of Kyte 
 
 ## <a name="squarelab"></a>CTO of a travel company
 
-Followed Kyte to Squarelab in 2020 as [CTO]({% post_url 2020-06-15-cto-of-a-spinoff %}): twenty plus engineers, two products, travel frozen by a pandemic. Built [hotels on top of flights]({% post_url 2020-12-20-hotels-are-harder-than-flights %}): master-hotel matching across a dozen suppliers, a rule-based room-grouping engine, coupons, TOPAS booking and ticketing. Kyte as a React web app, its successor prototyped in Flutter and [React Native]({% post_url 2020-10-10-shipping-a-react-native-app-in-a-flutter-shop %}), a white-label for a partner, the deals app and its real-time gateway. Monorepo into client and server workspaces, one protobuf toolchain for Kotlin, Node, and TypeScript, EKS. [Still wrote YAML]({% post_url 2021-04-25-a-cto-who-still-writes-yaml %}).
+Followed Kyte to Squarelab in 2020 as [CTO]({% post_url 2020-06-15-cto-of-a-spinoff %}): twenty plus engineers, two products, travel frozen by a pandemic. Built [hotels on top of flights]({% post_url 2020-12-20-hotels-are-harder-than-flights %}): canonical hotel matching across a dozen suppliers, a rule-based room-grouping engine, coupons, TOPAS booking and ticketing. Kyte as a React web app, its successor prototyped in Flutter and [React Native]({% post_url 2020-10-10-shipping-a-react-native-app-in-a-flutter-shop %}), a white-label for a partner, the deals app and its real-time gateway. Monorepo into client and server workspaces, one protobuf toolchain for Kotlin, Node, and TypeScript, EKS. [Still wrote YAML]({% post_url 2021-04-25-a-cto-who-still-writes-yaml %}).
 
 ## <a name="games"></a>An MMO server
 
