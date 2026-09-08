@@ -22,7 +22,7 @@ The short version: I have shipped a game server, a flight search app, a smart pl
 
 **A video format you can touch.** At Momenti, as Technical Architect, I wrote the design docs for an interactive media format, shaped the player architecture, and led the work that took the Rust engine to browsers through WebAssembly and to phones through FFI. Top contributor on the web and mobile repos. Led two products on top of it. Proposed pulling motion vectors out of the codec instead of computing them twice, which is the kind of idea that is obvious after someone says it.
 
-**Data plumbing in New York.** At a consumer startup in Manhattan I built and rebuilt the syncers that pull in what people read, watch, and play from services that were not designed to share. Smoke tests, backfills, cursors, a concurrency of two because two is the number.
+**Data plumbing in New York.** At Koodos Labs, a consumer startup in Manhattan, I built and rebuilt the syncers that pull in what people read, watch, and play from services that were not designed to share. Smoke tests, backfills, cursors, a concurrency of two because two is the number.
 
 **Tax software.** At Unitblack: a platform team's worth of Kubernetes, ArgoCD, and secrets management, an integration with the national tax service that has to be right to the won, and a spreadsheet formula engine in Rust so the accountants' sheets can be the source of truth instead of a translation. Most of the code is written by agents now. All of it is reviewed by me.
 
