@@ -4,13 +4,27 @@ title: About
 permalink: /about/
 ---
 
-I am the CTO of [Unitblack](#unitblack), the engineer behind a [spreadsheet formula engine](#formulas) that accountants trust, a [video format you can touch](#momenti), a [smart plug that actually shipped](#hardware), a [flight search app](#kyte) that ate tens of gigabytes of airline data a day, an [MMO server](#games) that held three thousand players at once, a [query plan visualizer](#sap) inside SAP HANA, a [two-time blockchain skeptic](#blockchain), a [former CTO](#squarelab) of a travel company, a [convert to AI-assisted engineering](#ai), a [three-year New Yorker](#newyork) now back in Seoul, and someone who has [tracked every working hour](#elsewhere) since 2017.
+I am the CTO of [Unitblack](#unitblack), where I rebuilt the [scraping engine](#unitblack) that reads the tax authority for tens of thousands of businesses, the engineer behind a [spreadsheet formula engine](#formulas) that accountants trust, the author of an [AI harness](#ai) a whole company works through, a [video format you can touch](#momenti), a [smart plug that actually shipped](#hardware), a [flight search app](#kyte) that ate tens of gigabytes of airline data a day, an [MMO server](#games) that held three thousand players at once, a [query plan visualizer](#sap) inside SAP HANA, a [two-time blockchain skeptic](#blockchain), a [former CTO](#squarelab) of a travel company, a [convert to AI-assisted engineering](#ai), a [three-year New Yorker](#newyork) now back in Seoul, and someone who has [tracked every working hour](#elsewhere) since 2017.
 
 I write here, in English, about what I built and what it taught me. GitHub is [sglim](https://github.com/sglim).
 
 ## <a name="unitblack"></a>CTO of Unitblack
 
-Unitblack builds tax and accounting software for Korean small businesses. I joined in 2025, first as a contractor on a [trial run]({% post_url 2025-06-10-tax-software-and-a-fresh-start %}), then as CTO. The work is a platform team's worth of Kubernetes, ArgoCD, and secrets management, an [integration with the national tax service]({% post_url 2025-12-22-reverse-engineering-a-government-login %}) that has to be right to the won, and the formula engine below. The domain was completely new to me. That was the point.
+Unitblack builds tax and accounting software for Korean small businesses: a service that finds the income tax refunds people are owed, a payroll product, tax filing, and the back offices behind them. I joined in 2025, first as a contractor on a [trial run]({% post_url 2025-06-10-tax-software-and-a-fresh-start %}), then as CTO. The domain was completely new to me. That was the point.
+
+What I have actually touched there, in rough order of how much of my life it took:
+
+**The scraping engine.** Everything starts with pulling a business's records out of the [national tax service]({% post_url 2025-12-22-reverse-engineering-a-government-login %}) and a handful of other institutions that were never designed to be read by software. The first version leaned on a vendor's black-box binary. I led the rewrite to a pure TypeScript engine that reproduces the institutions' own browser clients line for line, runs headless on Lambda, and is verified against the original on every service. Then the parts nobody had a client for: a credit-card clearing house behind a WAF that rotates its cipher every few weeks, delivery-app portals, a government certificate flow, and a mock server seeded from tens of thousands of real records so the whole pipeline can be tested end to end without touching production data. Two thousand commits in that repo alone.
+
+**The refund product.** Hidden Money is the flagship: a user logs in once, we pull five years of filings, recompute what they should have paid, and file the correction. I worked across the API, the admin, the batch workers, the shared data models, and the scraper, and I rebuilt the CI/CD for all of them: multi-service workflows, image tags you can read, a deploy repo per environment, a move from webpack to esbuild, tracing through Jaeger, and a payment integration with two Korean PSPs.
+
+**The calculation layer.** A Rust [spreadsheet formula engine](#formulas) so the accountants' workbooks are the source of truth, an income tax calculator that runs as a single Lambda every other service calls, and a filer that turns the result into the actual return. The calculator repo is written so that a tax specialist, not an engineer, can change a deduction limit by asking an agent in plain Korean.
+
+**Payroll.** A payroll system with employee records, allowances and deductions, withholding tax e-filing, and the four social insurances, integrated with the incumbent accounting platform and then made independent of it. National ID numbers stored only as AES-256-GCM ciphertext. Four thousand commits in seven weeks, most of them by agents, every one of them reviewed.
+
+**The platform.** Kubernetes on EKS, ArgoCD, external secrets, an internal Forgejo, Fluent Bit and Elasticsearch with APM, IAM with enforced MFA and IRSA, RDS access through IAM roles, a self-hosted Vaultwarden for company passwords, and LiteLLM in front of every model call so we know what the agents cost. Plus the smaller services around the edges: an alert-message monitor, a bank-appointment back office with card payments, an SEO blog with a scheduling admin, a GA4 dashboard, a knowledge base built from the company's own Slack archive, an ops agent that runs the refund workflow on Airtable.
+
+**The harness.** See below.
 
 ## <a name="formulas"></a>A spreadsheet formula engine
 
@@ -18,7 +32,9 @@ Accountants think in spreadsheets. Instead of translating their workbooks into c
 
 ## <a name="ai"></a>A convert to AI-assisted engineering
 
-I came back from New York a skeptic and changed my mind within a quarter. Most of our code is now written by agents, at a pace of [thousands of small commits a month]({% post_url 2026-06-25-two-thousand-commits-in-two-months %}). All of it is reviewed by a human who has to be able to explain it, and that human is usually me. The bottleneck moved from typing to understanding. I think that is the biggest change to this job since code review itself, and it has already [bitten me once]({% post_url 2026-08-10-dont-log-the-whole-cookie %}) in an instructive way.
+I came back from New York a skeptic and changed my mind within a quarter. Most of Unitblack's code is now written by agents, at a pace of [thousands of small commits a month]({% post_url 2026-06-25-two-thousand-commits-in-two-months %}). All of it is reviewed by a human who has to be able to explain it, and that human is usually me. The bottleneck moved from typing to understanding, and it has already [bitten me once]({% post_url 2026-08-10-dont-log-the-whole-cookie %}) in an instructive way.
+
+So I built the harness the company runs on. A shared repository, pulled into every project as a submodule, that carries the rules an agent has to follow before it touches code: how I judge a change, a governance tier per project for risk, data sensitivity, and write scope, a steward who owns each system's coherence, a security review gate, a secret scanner that actually runs, scaffolds for new services, and slash commands that keep every team's harness in sync with the org chart. The goal is that anyone at the company, developer or not, gets the same quality out of an agent that I would. A tax specialist changes tax law constants in plain Korean. An operator runs a refund workflow. The engineers review.
 
 This is not my first time around AI. At Skelter Labs I worked on Iris, a hyper-personalization engine built on the company's machine learning research, and then led Meerkat, a taste-based social service built on top of Iris to put that personalization in front of real people. It was the last thing I did at Skelter and the most product-shaped. Flutter on the front, TypeScript on the back, a lot of arguing about what "personal" should feel like.
 
