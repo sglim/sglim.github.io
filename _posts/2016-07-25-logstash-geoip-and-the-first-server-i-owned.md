@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Logstash, GeoIP, and the first server I actually owned"
 author    : Dennis Lim
 date      : 2016-07-25 22:45:00 +0900

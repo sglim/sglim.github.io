@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Launch day"
 author    : Dennis Lim
 date      : 2015-12-20 01:30:00 +0900

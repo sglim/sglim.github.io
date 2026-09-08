@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Three months of not working"
 author    : Dennis Lim
 date      : 2024-01-25 22:40:00 -0500

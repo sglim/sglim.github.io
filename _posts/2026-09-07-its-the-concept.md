@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "It's the concept, not the word"
 author    : Dennis Lim
 date      : 2026-09-07 03:30:00 +0900

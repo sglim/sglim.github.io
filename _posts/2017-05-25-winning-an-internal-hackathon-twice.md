@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Winning an internal hackathon, twice"
 author    : Dennis Lim
 date      : 2017-05-25 23:10:00 +0900

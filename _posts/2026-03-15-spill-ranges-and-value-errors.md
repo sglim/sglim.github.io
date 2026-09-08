@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Spill ranges and #VALUE! errors"
 author    : Dennis Lim
 date      : 2026-03-15 23:10:00 +0900

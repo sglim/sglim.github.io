@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "A Solana NFT marketplace prototype in Rust"
 author    : Dennis Lim
 date      : 2022-11-15 22:40:00 -0500

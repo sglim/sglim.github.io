@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Syncing Goodreads, again"
 author    : Dennis Lim
 date      : 2024-07-30 22:30:00 -0400

@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "When the funding stops"
 author    : Dennis Lim
 date      : 2023-11-20 23:30:00 -0500

@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Josa: a tiny Dart library for Korean particles"
 author    : Dennis Lim
 date      : 2019-05-10 21:40:00 +0900

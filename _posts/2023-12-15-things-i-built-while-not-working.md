@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Things I built while not working"
 author    : Dennis Lim
 date      : 2023-12-15 22:20:00 -0500

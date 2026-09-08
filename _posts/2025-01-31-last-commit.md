@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Last commit"
 author    : Dennis Lim
 date      : 2025-01-31 21:30:00 -0500

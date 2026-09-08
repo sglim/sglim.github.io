@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Elixir, Phoenix, and GraphQL over websockets"
 author    : Dennis Lim
 date      : 2023-02-15 22:30:00 -0500

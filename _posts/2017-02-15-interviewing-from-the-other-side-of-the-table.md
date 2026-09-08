@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Interviewing from the other side of the table"
 author    : Dennis Lim
 date      : 2017-02-15 22:30:00 +0900

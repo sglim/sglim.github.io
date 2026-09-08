@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "A voting system for demo day in three days"
 author    : Dennis Lim
 date      : 2022-07-15 23:40:00 +0900

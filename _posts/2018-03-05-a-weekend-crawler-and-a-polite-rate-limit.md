@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "A weekend crawler and a polite rate limit"
 author    : Dennis Lim
 date      : 2018-03-05 21:30:00 +0900

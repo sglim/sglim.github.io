@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "World servers, lobby servers, and a patcher"
 author    : Dennis Lim
 date      : 2015-03-20 22:10:00 +0900

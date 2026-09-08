@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Moving to New York"
 author    : Dennis Lim
 date      : 2022-07-28 22:30:00 -0400

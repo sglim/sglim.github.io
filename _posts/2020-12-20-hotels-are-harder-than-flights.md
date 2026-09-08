@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Hotels are harder than flights"
 author    : Dennis Lim
 date      : 2020-12-20 23:30:00 +0900

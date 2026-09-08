@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Why is Shanghai missing"
 author    : Dennis Lim
 date      : 2016-11-20 23:55:00 +0900

@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Hacker News as an English textbook"
 author    : Dennis Lim
 date      : 2019-10-15 22:30:00 +0900

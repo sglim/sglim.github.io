@@ -1,0 +1,71 @@
+{%- if site.ga_measurement_id and jekyll.environment == "production" -%}
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_measurement_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.ga_measurement_id }}', {
+    content_group: '{{ page.layout }}',
+    post_title: {{ page.title | default: site.title | jsonify }},
+    post_year: '{{ page.date | date: "%Y" }}'
+  });
+
+  // Reading analytics for posts: scroll depth, read completion, active time.
+  document.addEventListener('DOMContentLoaded', function () {
+    if ('{{ page.layout }}' !== 'post') return;
+    var title = {{ page.title | jsonify }};
+    var year = '{{ page.date | date: "%Y" }}';
+    var marks = [25, 50, 75, 100];
+    var sent = {};
+    var maxDepth = 0;
+    var activeMs = 0, lastTick = Date.now(), hidden = document.hidden;
+    var article = document.querySelector('.post-content') || document.body;
+
+    function depthNow() {
+      var rect = article.getBoundingClientRect();
+      var top = rect.top + window.scrollY;
+      var viewBottom = window.scrollY + window.innerHeight;
+      var d = (viewBottom - top) / rect.height * 100;
+      return Math.max(0, Math.min(100, Math.round(d)));
+    }
+    function onScroll() {
+      var d = depthNow();
+      if (d > maxDepth) maxDepth = d;
+      marks.forEach(function (m) {
+        if (d >= m && !sent[m]) {
+          sent[m] = true;
+          gtag('event', 'read_depth', { percent: m, post_title: title, post_year: year });
+        }
+      });
+    }
+    function tick() {
+      var now = Date.now();
+      if (!hidden) activeMs += now - lastTick;
+      lastTick = now;
+    }
+    document.addEventListener('visibilitychange', function () { tick(); hidden = document.hidden; });
+    window.addEventListener('scroll', onScroll, { passive: true });
+    setInterval(tick, 5000);
+    var milestones = [30, 60, 120, 300], msSent = {};
+    setInterval(function () {
+      var s = Math.floor(activeMs / 1000);
+      milestones.forEach(function (m) {
+        if (s >= m && !msSent[m]) {
+          msSent[m] = true;
+          gtag('event', 'read_time', { seconds: m, post_title: title, post_year: year });
+        }
+      });
+    }, 5000);
+    function finish() {
+      tick();
+      gtag('event', 'read_end', {
+        max_depth: maxDepth, active_seconds: Math.round(activeMs / 1000),
+        post_title: title, post_year: year, transport_type: 'beacon'
+      });
+    }
+    window.addEventListener('pagehide', finish, { once: true });
+    onScroll();
+  });
+</script>
+{%- endif -%}

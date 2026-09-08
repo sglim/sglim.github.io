@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Writing my first RFC"
 author    : Dennis Lim
 date      : 2023-05-10 23:20:00 -0400

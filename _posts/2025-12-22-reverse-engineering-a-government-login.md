@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Reverse engineering a government login"
 author    : Dennis Lim
 date      : 2025-12-22 23:40:00 +0900

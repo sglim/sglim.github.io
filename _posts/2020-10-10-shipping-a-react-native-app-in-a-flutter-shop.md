@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Shipping a React Native app in a Flutter shop"
 author    : Dennis Lim
 date      : 2020-10-10 22:40:00 +0900

@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Reimplementing spreadsheet formulas"
 author    : Dennis Lim
 date      : 2026-01-25 22:30:00 +0900

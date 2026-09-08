@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Smart sockets and two Ender-3s"
 author    : Dennis Lim
 date      : 2018-06-15 22:50:00 +0900

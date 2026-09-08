@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Node 10 to 12 and other unglamorous upgrades"
 author    : Dennis Lim
 date      : 2021-02-20 22:30:00 +0900

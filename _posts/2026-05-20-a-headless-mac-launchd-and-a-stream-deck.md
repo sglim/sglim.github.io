@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "A headless Mac, launchd, and a Stream Deck"
 author    : Dennis Lim
 date      : 2026-05-20 22:40:00 +0900

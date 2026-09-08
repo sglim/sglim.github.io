@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "I started tracking my own hours"
 author    : Dennis Lim
 date      : 2017-12-20 23:45:00 +0900

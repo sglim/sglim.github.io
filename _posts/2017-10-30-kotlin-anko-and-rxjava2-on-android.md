@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Kotlin, Anko, and RxJava2 on Android"
 author    : Dennis Lim
 date      : 2017-10-30 22:20:00 +0900

@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Xcode 15 broke the build again"
 author    : Dennis Lim
 date      : 2023-09-20 22:10:00 -0400

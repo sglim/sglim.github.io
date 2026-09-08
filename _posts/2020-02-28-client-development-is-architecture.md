@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Client development is architecture"
 author    : Dennis Lim
 date      : 2020-02-28 11:08:00 +0900

@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "The Ender-5 arrived"
 author    : Dennis Lim
 date      : 2019-07-10 23:00:00 +0900

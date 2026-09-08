@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Tax software and a fresh start"
 author    : Dennis Lim
 date      : 2025-06-10 22:50:00 +0900

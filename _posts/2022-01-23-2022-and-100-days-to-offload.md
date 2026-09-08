@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "2022 and 100 Days To Offload"
 author    : Dennis Lim
 date      : 2022-01-23 19:50:00 +0900

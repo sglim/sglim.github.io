@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Benchmarking mp4 to images"
 author    : Dennis Lim
 date      : 2021-09-15 22:45:00 +0900

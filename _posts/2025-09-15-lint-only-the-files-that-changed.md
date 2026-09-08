@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "Lint only the files that changed"
 author    : Dennis Lim
 date      : 2025-09-15 22:20:00 +0900

@@ -1,5 +1,5 @@
 ---
-layout    : posts
+layout    : post
 title     : "CTO of a spinoff"
 author    : Dennis Lim
 date      : 2020-06-15 23:20:00 +0900
