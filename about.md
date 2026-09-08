@@ -52,6 +52,6 @@ I [moved to Manhattan in 2022]({% post_url 2022-07-28-moving-to-new-york %}) whi
 
 ## <a name="elsewhere"></a>Elsewhere
 
-Yonsei University, computer science, top of the department. ACM-ICPC regional bronze. A Google internship where my code shipped to production, two years on SAP HANA's query plan visualizer, freelance firmware for iBeacons, and two years in the Air Force building the branch-wide emergency contact system. A general shook my hand for that one.
+Yonsei University, computer science, top of the department. ACM-ICPC regional bronze. An internship at Google where my code shipped to production, two years on SAP HANA's query plan visualizer, freelance firmware for iBeacons, and two years in the Air Force building the branch-wide emergency contact system. A general shook my hand for that one.
 
 I have [tracked every working hour since 2017]({% post_url 2021-06-23-five-thousand-entries-later %}). The number is about two thousand a year no matter the job. A Mac mini on a shelf [runs my life]({% post_url 2026-05-20-a-headless-mac-launchd-and-a-stream-deck %}) through launchd and a Stream Deck daemon. A 3D printer prints parts for the 3D printer.
