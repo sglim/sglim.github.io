@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Momenti, Senior Software Engineer, Elite Trouble Shooter
+Unitblack, CTO, Elite Trouble Shooter
