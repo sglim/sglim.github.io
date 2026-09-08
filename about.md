@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am the CTO of [Unitblack](#unitblack), the engineer behind a [spreadsheet formula engine](#formulas) that accountants trust, a [video format you can touch](#momenti), a [smart plug that actually shipped](#hardware), a [flight search app](#kyte) that ate tens of gigabytes of airline data a day, an [MMO server](#games) that held three thousand players at once, a [two-time blockchain skeptic](#blockchain), a [former CTO](#squarelab) of a travel company, a [convert to AI-assisted engineering](#ai), a [three-year New Yorker](#newyork) now back in Seoul, and someone who has [tracked every working hour](#elsewhere) since 2017.
+I am the CTO of [Unitblack](#unitblack), the engineer behind a [spreadsheet formula engine](#formulas) that accountants trust, a [video format you can touch](#momenti), a [smart plug that actually shipped](#hardware), a [flight search app](#kyte) that ate tens of gigabytes of airline data a day, an [MMO server](#games) that held three thousand players at once, a [query plan visualizer](#sap) inside SAP HANA, a [two-time blockchain skeptic](#blockchain), a [former CTO](#squarelab) of a travel company, a [convert to AI-assisted engineering](#ai), a [three-year New Yorker](#newyork) now back in Seoul, and someone who has [tracked every working hour](#elsewhere) since 2017.
 
 I write here, in English, about what I built and what it taught me. GitHub is [sglim](https://github.com/sglim).
 
@@ -42,6 +42,10 @@ When Kyte spun out into Squarelab in 2020, I became [CTO]({% post_url 2020-06-15
 
 At XL Games I worked on Civilization Online, launched with 2K in 2015. [World and lobby servers]({% post_url 2015-03-20-world-servers-lobby-servers-and-a-patcher %}) in C++ holding three thousand players each, a diff-based patcher, and a game database whose migrations I convinced a game studio to [run through Django]({% post_url 2015-09-15-migrating-a-game-database-with-django %}). [Launch day]({% post_url 2015-12-20-launch-day %}) was the first time I shipped something people were waiting outside the door for.
 
+## <a name="sap"></a>Three years inside a database
+
+My first real job after Google was at SAP Labs Korea, from 2012 until I left for XL Games in early 2015. I worked on SAP HANA, the in-memory database, and specifically on PlanViz, the tool that draws what the query optimizer decided to do with your SQL. To draw a plan well you have to understand it, so I spent a lot of time in the optimizer itself, tuned parts of it, and raised the unit test coverage on the way. Java, C++, Python, Eclipse RCP. It taught me that the fastest way to understand a system is to build the smallest real thing that touches it, which is a habit I [still keep as a CTO]({% post_url 2021-04-25-a-cto-who-still-writes-yaml %}).
+
 ## <a name="blockchain"></a>A two-time blockchain skeptic
 
 Twice a company asked me to find out whether blockchain was real for them. In 2018 I led a [task force]({% post_url 2018-08-20-six-months-as-a-blockchain-tech-lead %}) that ended in a Solidity dApp and a well-argued "not now". In 2022 I built an [NFT marketplace with auctions on Solana]({% post_url 2022-11-15-a-solana-nft-marketplace-prototype-in-rust %}), in Rust on Metaplex, that ended the same way. Both times the company got a real answer instead of a guess. I count both as wins.
@@ -52,6 +56,6 @@ I [moved to Manhattan in 2022]({% post_url 2022-07-28-moving-to-new-york %}) whi
 
 ## <a name="elsewhere"></a>Elsewhere
 
-Yonsei University, computer science, top of the department. ACM-ICPC regional bronze. An internship at Google where my code shipped to production, two years on SAP HANA's query plan visualizer, freelance firmware for iBeacons, and two years in the Air Force building the branch-wide emergency contact system. The Chief of Staff, the highest-ranking officer in the Air Force, gave me an award for it and sat me down to lunch with about twenty other people. I was a conscript. I still think about that lunch.
+Yonsei University, computer science, top of the department. ACM-ICPC regional bronze. An internship at Google where my code shipped to production, freelance firmware for iBeacons and a Django shop for an art gallery, and two years in the Air Force building the branch-wide emergency contact system. The Chief of Staff, the highest-ranking officer in the Air Force, gave me an award for it and sat me down to lunch with about twenty other people. I was a conscript. I still think about that lunch.
 
 I have [tracked every working hour since 2017]({% post_url 2021-06-23-five-thousand-entries-later %}). The number is about two thousand a year no matter the job. A Mac mini on a shelf [runs my life]({% post_url 2026-05-20-a-headless-mac-launchd-and-a-stream-deck %}) through launchd and a Stream Deck daemon. A 3D printer prints parts for the 3D printer.
