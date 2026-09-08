@@ -6,7 +6,7 @@ date      : 2024-07-30 22:30:00 -0400
 categories: computer science
 ---
 
-I rewrote the Goodreads sync this month. Version two. Version one was written before I joined, worked well enough, and had reached the point where every fix made two other things worse. I want to write about the rewrite because rewrites are usually a mistake and this one was not, and it is worth being clear about why.
+I rewrote the Goodreads sync this month. Version two. Version one was written before I joined Koodos Labs, worked well enough, and had reached the point where every fix made two other things worse. I want to write about the rewrite because rewrites are usually a mistake and this one was not, and it is worth being clear about why.
 
 The context: users connect their reading history and we pull in what they have read, are reading, and want to read. There is no proper API for this anymore. There are exports, there are pages, there is a small amount of creativity. Version one handled the common case and fell over on the edges. Users with thousands of books. Users who had deleted shelves. Books with the same title by different authors. Rate limits that changed depending on the time of day, apparently.
 

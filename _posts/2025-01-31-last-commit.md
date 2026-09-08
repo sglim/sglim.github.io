@@ -6,7 +6,7 @@ date      : 2025-01-31 21:30:00 -0500
 categories: life
 ---
 
-My last commit at the startup went in yesterday. A fix to an image cleanup job. Small, correct, unglamorous. That is how I would want it.
+My last commit at Koodos Labs went in yesterday. A fix to an image cleanup job. Small, correct, unglamorous. That is how I would want it.
 
 I am leaving. We are going back to Korea.
 

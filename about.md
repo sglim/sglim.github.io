@@ -14,6 +14,8 @@ The short version: I have shipped a game server, a flight search app, a smart pl
 
 **A travel app with a lot of data behind it.** I was engineer number five at Skelter Labs and tech lead of Kyte, a flight search app that passed two hundred thousand downloads. Node.js servers, Swift and Kotlin clients, and a Spark pipeline that pulled tens of gigabytes of airline fare data every day, crunched it, and served the interesting parts to a phone in milliseconds. I set up the ELK stack, watched the GeoIP dots appear, and learned that most bugs in a data product are absences, not crashes.
 
+**AI before it was the whole industry.** Also at Skelter, I worked on Iris, a hyper-personalization engine that used the company's machine learning research to model what a person actually wants, and then on Meerkat, the consumer app we built to put Iris in front of real users. Flutter on the front, TypeScript on the back, a lot of arguing about what "personal" should feel like.
+
 **Hardware.** I led the IoT team that shipped a smart plug. Actually shipped, in boxes, to people's living rooms. MQTT and RabbitMQ on the back, a Kotlin device server, BLE on the phone, firmware updates that had to never brick anything. Two Ender-3s for the enclosures turned into a hobby I still have.
 
 **Blockchain, twice.** A task force in 2018 that ended in a Solidity dApp and a well argued "not now". An NFT marketplace with auctions on Solana in 2022, in Rust on top of Metaplex, that ended the same way. Both times the company got a real answer instead of a guess.
@@ -22,9 +24,9 @@ The short version: I have shipped a game server, a flight search app, a smart pl
 
 **A video format you can touch.** At Momenti, as Technical Architect, I wrote the design docs for an interactive media format, shaped the player architecture, and led the work that took the Rust engine to browsers through WebAssembly and to phones through FFI. Top contributor on the web and mobile repos. Led two products on top of it. Proposed pulling motion vectors out of the codec instead of computing them twice, which is the kind of idea that is obvious after someone says it.
 
-**Data plumbing in New York.** At Koodos Labs, a consumer startup in Manhattan, I built and rebuilt the syncers that pull in what people read, watch, and play from services that were not designed to share. Smoke tests, backfills, cursors, a concurrency of two because two is the number.
+**Data plumbing in New York.** At Koodos Labs, a consumer startup in Manhattan, I built and rebuilt the syncers that pull in what people read, watch, and play from services that were not designed to share. Smoke tests, backfills, resumable cursors, and a hard-won respect for other people's rate limits.
 
-**Tax software.** At Unitblack: a platform team's worth of Kubernetes, ArgoCD, and secrets management, an integration with the national tax service that has to be right to the won, and a spreadsheet formula engine in Rust so the accountants' sheets can be the source of truth instead of a translation. Most of the code is written by agents now. All of it is reviewed by me.
+**Tax software.** At Unitblack: a platform team's worth of Kubernetes, ArgoCD, and secrets management, an integration with the national tax service that has to be right to the won, and a spreadsheet formula engine in Rust so the accountants' sheets can be the source of truth instead of a translation. I came back from New York a skeptic about AI-assisted engineering and became a convert within a quarter. Most of our code is written by agents now, at a rate of thousands of small commits a month. All of it is reviewed by a human who has to be able to explain it, and that human is usually me. I think this is the most interesting change to the job since code review itself, and I am building the team around it on purpose.
 
 ## Before all that
 

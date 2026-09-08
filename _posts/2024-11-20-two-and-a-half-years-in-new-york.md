@@ -10,7 +10,7 @@ I moved here in July 2022. It is November 2024. That is long enough to have opin
 
 On work.
 
-I have had two jobs here. One was a Korean company where I was the person on the far side of the ocean, working evenings to overlap with Seoul. The other is a local startup where everyone is in the same room. They taught me opposite things.
+I have had two jobs here. One was a Korean company where I was the person on the far side of the ocean, working evenings to overlap with Seoul. The other is Koodos Labs, a local startup where everyone is in the same room. They taught me opposite things.
 
 The remote job taught me to write. When your team is asleep during your most productive hours, the only way to move things forward is a document they wake up to. Design docs, RFCs, flow diagrams, a written decision instead of a call. I became a better engineer in those two years mostly by becoming a better writer, and I did not notice until I got to a local team and saw how much got decided in hallways and lost by Friday.
 

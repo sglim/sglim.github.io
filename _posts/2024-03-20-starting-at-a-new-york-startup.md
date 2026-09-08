@@ -1,12 +1,12 @@
 ---
 layout    : post
-title     : "Starting at a New York startup"
+title     : "Starting at Koodos Labs"
 author    : Dennis Lim
 date      : 2024-03-20 22:15:00 -0400
 categories: life
 ---
 
-Started a new job last week. A small startup here in New York, my first job where the company, the team, and I are all in the same city and the same time zone since 2022. Consumer product, a mobile app plus a web app, built around what people read and watch and play. I am on the data side of it.
+Started a new job last week. Koodos Labs, a small startup here in New York, and my first job where the company, the team, and I are all in the same city and the same time zone since 2022. Consumer product, a mobile app plus a web app, built around what people read and watch and play. I am on the data side of it.
 
 Some first week notes.
 

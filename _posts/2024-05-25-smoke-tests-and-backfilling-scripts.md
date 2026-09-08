@@ -6,7 +6,7 @@ date      : 2024-05-25 21:50:00 -0400
 categories: computer science
 ---
 
-Two months in. Most of my commits this month fall into two buckets that nobody puts on a roadmap: tests that catch the obvious, and scripts that fix the past. Here is why I think those two buckets are the real job right now.
+Two months in at Koodos Labs. Most of my commits this month fall into two buckets that nobody puts on a roadmap: tests that catch the obvious, and scripts that fix the past. Here is why I think those two buckets are the real job right now.
 
 Smoke tests.
 
