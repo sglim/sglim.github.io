@@ -4,3 +4,4 @@ _site
 vendor
 .bundle
 .playwright-mcp
+_drafts/*-material.md
