@@ -26,8 +26,6 @@ On being a foreigner.
 
 I will always have an accent and I stopped minding this year. What I mind is the third sentence in a loud bar. Still. That may never come. What did come is the ability to run a meeting, push back on a plan, and make a room laugh on purpose, all in a language I learned from textbooks and Hacker News comments. I am proud of that. I do not say that about many things.
 
-The visa situation is stable for now. That sentence has done a lot of work in the last two years.
-
 On what is next.
 
 I do not know. The current job is fine and the product is fun and the team is good. There is also a pull toward home that I did not expect. Parents getting older. Friends having kids. A life in Seoul that continued without me and that I can see from here through a screen. I will not decide anything this year. I said that a year ago too, and then a lot got decided.

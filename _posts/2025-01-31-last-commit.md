@@ -10,7 +10,7 @@ My last commit at Koodos Labs went in yesterday. A fix to an image cleanup job. 
 
 I am leaving. We are going back to Korea.
 
-I am not going to write about why in detail. Some of it is the pull toward home I wrote about in November, which got stronger rather than weaker. Some of it is the job, which was good in the ways I said and less good in ways I will not put on a public blog. Not every ending is a clean one. This one was not. I have made peace with that and I do not need to relitigate it here.
+The reason is the pull toward home I wrote about in November, which got stronger rather than weaker. Parents, friends, a life in Seoul I have been watching through a screen. At some point the screen is not enough.
 
 What I want to write about instead is what ten months of that job left me with, because I will forget the good parts if I do not.
 

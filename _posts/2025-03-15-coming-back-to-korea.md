@@ -30,6 +30,6 @@ Looking at what changed in the industry here while I was gone. The AI stuff is e
 
 Sleeping. Real sleep, in one block, in a time zone where my body and my calendar agree. The first week I woke up at three every morning ready for a standup that did not exist. That has stopped.
 
-What I am not doing: deciding whether the New York years were worth it. They were. I got the English I went for. I worked on a Rust engine and a media format and a data pipeline in a city where the people who wrote the papers were at the next table. I lost some things and one job ended badly. Net positive, clearly, and I do not need to keep doing the math.
+What I am not doing: deciding whether the New York years were worth it. They were. I got the English I went for. I worked on a Rust engine and a media format and a data pipeline in a city where the people who wrote the papers were at the next table. Net positive, clearly, and I do not need to keep doing the math.
 
 Next post will probably be about a job. There are a couple of interesting ones. One is in a field I have never touched and that is exactly what makes it interesting.

@@ -28,4 +28,4 @@ Some notes on the work itself:
 - Write the visualizer first. Numbers in a matrix convinced nobody. Arrows on a frame convinced everyone.
 - The idea was not new. It is in papers from fifteen years ago. What was missing was someone on our team who had time to try it.
 
-It is a strange summer. Fewer meetings than usual, a quieter Slack. That is its own post. For now, I have arrows on frames and a proposal in review, and that is a good two weeks.
+It is a quiet summer, the good kind. I have arrows on frames and a proposal in review, and that is a good two weeks.
