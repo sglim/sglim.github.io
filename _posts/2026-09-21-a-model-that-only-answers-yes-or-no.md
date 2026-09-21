@@ -6,7 +6,7 @@ date      : 2026-09-21 02:30:00 +0900
 categories: computer science
 ---
 
-For the last few weeks I have been wiring a strange little model into everything I touch. It does not write text. You hand it some state and a typed question, and it hands back a probability. Yes or no. One of these options. Where on this scale. That is the whole API. It costs about four cents per million input tokens and answers in half a second.
+For the last few weeks I have been wiring a strange little model into everything I touch. It is called [Jev](https://docs.typesafe.ai), from TypeSafe, and it does not write text. You hand it some state and a typed question, and it hands back a probability. Yes or no. One of these options. Where on this scale. That is the whole API. It costs about four cents per million input tokens and answers in half a second.
 
 I was skeptical. Then I put it in about sixty places across work and side projects in one long day, measured every one, and kept roughly half. Here is what I learned, in the order I learned it.
 
@@ -24,4 +24,4 @@ I was skeptical. Then I put it in about sixty places across work and side projec
 
 I ran it on a side project too, an esports stats site where I score draft posts on six quality axes. The scores looked great and correlated with reader response at exactly zero. What predicted a reaction was the subject, not the sentence. The model was right about the sentences. I was wrong about what to ask.
 
-Would I keep using it? Yes, more than before, and more narrowly. It is a cheap, honest, literal-minded second reader that never gets tired. You just have to remember which of you is holding the pen.
+Would I keep using Jev? Yes, more than before, and more narrowly. It is a cheap, honest, literal-minded second reader that never gets tired. You just have to remember which of you is holding the pen.
