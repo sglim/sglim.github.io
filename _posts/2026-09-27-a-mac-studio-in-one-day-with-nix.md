@@ -6,17 +6,17 @@ date      : 2026-09-27 20:30:00 +0900
 categories: computer science
 ---
 
-I bought a Mac Studio this week. M5 Max, sitting on a shelf at home with no monitor. Its job is to run my side-project bots and take the heavy builds off the old M1 that has been doing everything. I set it up today, from zero, and I want to write down how, because most of what I learned came from things that broke on the M1 first.
+I bought a Mac Studio this week. M5 Max, a home server I mostly reach over SSH. Its job is to run my side-project bots and take the heavy builds off the old M1 that has been doing everything. I set it up today, from zero, and I want to write down how, because most of what I learned came from things that broke on the M1 first.
 
-The rule I set before unboxing: if nix can install it, nothing gets installed by hand. Every tool, every service, every macOS setting lives in one git repo of nix files. The M1 already worked that way for my user account with home-manager. For the new machine I added nix-darwin, which manages the whole system, not just my home folder. Both configs live in the same flake. The M1 keeps its old setup and the Studio gets the new one, side by side.
+The rule I set before unboxing: if nix can manage it, nix manages it. Tools, services, and the macOS settings nix can reach all live in one git repo of nix files. The few things it can't reach go into a checklist in the same repo. The M1 already worked that way for my user account with home-manager. For the new machine I added nix-darwin, which manages the whole system, not just my home folder. Both configs live in the same flake. The M1 keeps its old setup and the Studio gets the new one, side by side.
 
-Setup was two manual steps. Install Xcode's command line tools, clone the repo. Then one bootstrap script that installs Homebrew, installs Nix, applies the config, and switches the login shell. It is safe to run again, so if it stops halfway you just run it again. Five config generations later, by dinner, the machine was mine.
+Before the script, two manual steps. Install Xcode's command line tools, clone the repo. Then one bootstrap script that installs Homebrew, installs Nix, applies the config, and switches the login shell. It is safe to run again, so if it stops halfway you just run it again. Five config generations later, by dinner, the machine was mine.
 
 A few things I did differently this time, and why.
 
 **The login shell.** On the M1 my login shell was fish, from the nix profile. Twice, an update changed that path out from under me and SSH stopped working. Both times I had to walk to the machine. The workaround there is a plain /bin/zsh login shell that hands over to fish only for interactive SSH. On the Studio, nix-darwin puts fish at a per-user path that stays the same across updates, so the shell is fish again and I sleep fine.
 
-**Files nix takes over.** When home-manager starts managing a dotfile, it moves the old one aside and does not carry anything over. On the M1 that silently deleted the one line in .zshenv that put nix on the PATH, and zsh could not find a single nix binary. Now I check the moved-aside files after every first apply.
+**Files nix takes over.** When home-manager starts managing a dotfile, it moves the old one aside and does not carry anything over. On the M1 that silently deleted the one line in .zshenv that put nix on the PATH, and zsh could not find a single nix binary. Now the checklist says to look at the moved-aside files right after every switch.
 
 **Use Apple's ssh.** macOS has a local network privacy check. A non-Apple-signed binary talking to a private address gets "No route to host". Nix's openssh failed exactly like that, while /usr/bin/ssh to the same address worked. The nix path changes on every update, so granting permission never sticks. I just use the system ssh on Macs.
 
@@ -32,4 +32,4 @@ A few things I did differently this time, and why.
 
 The machines talk over Tailscale now, named m1, m3, m5. I only noticed while typing those names that I own nothing but odd-numbered chips. Three Macs, three generations, two MacBooks and one Studio, and no two of them the same. It was not a plan. I am keeping it anyway. When I need a file from one of them, a small script asks the others and pulls the newer copy.
 
-A new Mac used to cost me a weekend of clicking. This one cost a day, and most of that day was spent writing down what I learned. The next one should take an hour.
+Every step I took today is in that repo now, either as nix or as a line in the checklist. The next Mac can start from a script and a list instead of my memory.
