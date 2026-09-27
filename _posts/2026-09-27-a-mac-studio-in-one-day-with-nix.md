@@ -30,6 +30,6 @@ A few things I did differently this time, and why.
 
 **What nix can't decide.** The config says never sleep and restart after a power failure. But FileVault is on, and after a power cut the Mac waits at the disk unlock screen, where SSH can't reach it. No setting fixes that. It is a choice between security and uptime, and I have not made it yet.
 
-The machines talk over Tailscale now, named m1, m3, m5. When I need a file from one of them, a small script asks both and pulls the newer copy.
+The machines talk over Tailscale now, named m1, m3, m5. I only noticed while typing those names that I own nothing but odd-numbered chips. Three Macs, three generations, two MacBooks and one Studio, and no two of them the same. It was not a plan. I am keeping it anyway. When I need a file from one of them, a small script asks the others and pulls the newer copy.
 
 A new Mac used to cost me a weekend of clicking. This one cost a day, and most of that day was spent writing down what I learned. The next one should take an hour.
