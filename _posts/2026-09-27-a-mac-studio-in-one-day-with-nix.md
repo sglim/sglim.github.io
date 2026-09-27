@@ -8,9 +8,9 @@ categories: computer science
 
 I bought a Mac Studio this week. M5 Max, sitting on a shelf at home with no monitor. Its job is to run my side-project bots and take the heavy builds off the old M1 that has been doing everything. I set it up today, from zero, and I want to write down how, because most of what I learned came from things that broke on the M1 first.
 
-The rule I set before unboxing: nothing gets installed by hand. Every tool, every service, every macOS setting lives in one git repo of nix files. The M1 already worked that way for my user account with home-manager. For the new machine I added nix-darwin, which manages the whole system, not just my home folder. Both configs live in the same flake. The M1 keeps its old setup and the Studio gets the new one, side by side.
+The rule I set before unboxing: if nix can install it, nothing gets installed by hand. Every tool, every service, every macOS setting lives in one git repo of nix files. The M1 already worked that way for my user account with home-manager. For the new machine I added nix-darwin, which manages the whole system, not just my home folder. Both configs live in the same flake. The M1 keeps its old setup and the Studio gets the new one, side by side.
 
-Setup was two manual steps. Install Xcode's command line tools, clone the repo. Then one bootstrap script that installs Homebrew, installs Nix, applies the config, and switches the login shell. It is safe to run again, so when it stopped halfway I just ran it again. Five config generations later, by dinner, the machine was mine.
+Setup was two manual steps. Install Xcode's command line tools, clone the repo. Then one bootstrap script that installs Homebrew, installs Nix, applies the config, and switches the login shell. It is safe to run again, so if it stops halfway you just run it again. Five config generations later, by dinner, the machine was mine.
 
 A few things I did differently this time, and why.
 
@@ -24,7 +24,7 @@ A few things I did differently this time, and why.
 
 **The hostname is the identity.** darwin-rebuild picks which config to apply by the machine's local hostname. macOS renames a machine when it sees a name collision on the network. My laptop went from one numbered name to another in a week. So the config pins the hostname, and that one line is what makes the Studio know which machine it is.
 
-**Services, declared but off.** The bots are declared in nix as launchd agents, with a flag that keeps them off. That let me apply the full config today without two machines running the same jobs. A generator script rewrote their Homebrew paths to the nix profile, so the services do not have Homebrew on their PATH at all. Migration day is one flag.
+**Services, declared but off.** The bots are declared in nix as launchd agents, with a flag that keeps them off. That let me apply the full config today without two machines running the same jobs. A generator script rewrote their Homebrew paths to the nix profile, so the services do not have Homebrew on their PATH at all. Migration day is mostly one flag.
 
 **A rule for tools.** The M1's nix store grew to 41GB because nothing ever cleaned it. The Studio collects garbage weekly from day one. I also counted which command line tools I actually ran in the last 90 days, from shell history and the agent's command logs. Anything used twenty times or more is installed. Everything else I get with `nix shell` when I need it, and the weekly cleanup takes it away.
 
