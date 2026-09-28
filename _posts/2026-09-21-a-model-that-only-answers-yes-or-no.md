@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "A model that only answers yes or no"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2026-09-21 02:30:00 +0900
 categories: computer science
 ---

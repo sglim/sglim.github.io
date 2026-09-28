@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Starting at Koodos Labs"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2024-03-20 22:15:00 -0400
 categories: life
 ---

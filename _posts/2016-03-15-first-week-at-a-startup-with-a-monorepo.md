@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "First week at a startup with a monorepo"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2016-03-15 23:20:00 +0900
 categories: computer science
 ---

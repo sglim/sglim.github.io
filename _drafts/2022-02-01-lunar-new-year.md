@@ -1,7 +1,7 @@
 ---
 layout    : posts
 title     : "Lunar New Year"
-author    : Dennis Lim
+author    : Seunggi Lim
 categories: life
 ---
 

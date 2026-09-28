@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Motion vectors are already in the file"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2023-07-30 21:40:00 -0400
 categories: computer science
 ---

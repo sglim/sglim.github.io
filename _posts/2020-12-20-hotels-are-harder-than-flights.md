@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Hotels are harder than flights"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2020-12-20 23:30:00 +0900
 categories: computer science
 ---

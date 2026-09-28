@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Coming back to Korea"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2025-03-15 22:40:00 +0900
 categories: life
 ---

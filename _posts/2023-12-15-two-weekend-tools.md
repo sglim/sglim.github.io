@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Two weekend tools"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2023-12-15 22:20:00 -0500
 categories: computer science
 ---

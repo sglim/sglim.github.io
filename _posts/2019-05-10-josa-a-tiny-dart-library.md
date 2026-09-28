@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Josa: a tiny Dart library for Korean particles"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2019-05-10 21:40:00 +0900
 categories: computer science
 ---

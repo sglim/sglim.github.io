@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Leaving Skelter Labs after four years"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2020-04-03 19:47:00 +0900
 categories: life
 ---

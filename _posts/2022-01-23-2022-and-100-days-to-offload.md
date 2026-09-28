@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "2022 and 100 Days To Offload"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2022-01-23 19:50:00 +0900
 categories: life
 ---

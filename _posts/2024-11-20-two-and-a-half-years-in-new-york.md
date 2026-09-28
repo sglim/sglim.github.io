@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Two and a half years in New York"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2024-11-20 23:10:00 -0500
 categories: life
 ---

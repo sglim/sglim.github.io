@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Hacker News as an English textbook"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2019-10-15 22:30:00 +0900
 categories: life
 ---

@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Smoke tests and backfilling scripts"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2024-05-25 21:50:00 -0400
 categories: computer science
 ---

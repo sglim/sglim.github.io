@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Why is Shanghai missing"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2016-11-20 23:55:00 +0900
 categories: computer science
 ---

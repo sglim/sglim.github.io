@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "A CTO who still writes YAML"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2021-04-25 23:15:00 +0900
 categories: computer science
 ---

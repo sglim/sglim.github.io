@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Three months of only Android"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2018-11-20 22:40:00 +0900
 categories: computer science
 ---

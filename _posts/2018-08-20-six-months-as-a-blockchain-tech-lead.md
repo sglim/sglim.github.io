@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Six months as a blockchain tech lead"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2018-08-20 23:30:00 +0900
 categories: computer science
 ---

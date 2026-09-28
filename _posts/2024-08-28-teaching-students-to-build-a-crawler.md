@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Teaching students to build a crawler"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2024-08-28 22:30:00 -0400
 categories: computer science
 ---

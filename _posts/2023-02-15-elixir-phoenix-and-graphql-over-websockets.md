@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Elixir, Phoenix, and GraphQL over websockets"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2023-02-15 22:30:00 -0500
 categories: computer science
 ---

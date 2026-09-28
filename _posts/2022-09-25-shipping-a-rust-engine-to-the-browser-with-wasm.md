@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Shipping a Rust engine to the browser with WASM"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2022-09-25 21:15:00 -0400
 categories: computer science
 ---

@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "2018: my time is being wasted"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2018-12-31 23:28:00 +0900
 categories: life
 ---

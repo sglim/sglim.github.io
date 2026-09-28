@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "The Ender-5 arrived"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2019-07-10 23:00:00 +0900
 categories: life
 ---

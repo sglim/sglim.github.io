@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Learning Dart because Flutter hit 1.0"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2019-01-20 22:15:00 +0900
 categories: computer science
 ---

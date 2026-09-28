@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Node 10 to 12 and other unglamorous upgrades"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2021-02-20 22:30:00 +0900
 categories: computer science
 ---

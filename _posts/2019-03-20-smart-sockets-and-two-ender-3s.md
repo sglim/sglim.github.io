@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Smart sockets and two Ender-3s"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2019-03-20 22:50:00 +0900
 categories: computer science
 ---

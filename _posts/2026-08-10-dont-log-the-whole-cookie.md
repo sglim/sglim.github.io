@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Don't log the whole cookie"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2026-08-10 22:20:00 +0900
 categories: computer science
 ---

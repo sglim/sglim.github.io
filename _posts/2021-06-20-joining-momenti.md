@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Joining Momenti: video that responds to you"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2021-06-20 22:00:00 +0900
 categories: life
 ---

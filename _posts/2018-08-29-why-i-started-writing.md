@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Why I started writing"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2018-08-29 23:02:00 +0900
 categories: life
 ---

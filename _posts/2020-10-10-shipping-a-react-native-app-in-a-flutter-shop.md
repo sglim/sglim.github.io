@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Shipping a React Native app in a Flutter shop"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2020-10-10 22:40:00 +0900
 categories: computer science
 ---

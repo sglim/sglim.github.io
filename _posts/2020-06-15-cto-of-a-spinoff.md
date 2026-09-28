@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "CTO of a spinoff"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2020-06-15 23:20:00 +0900
 categories: life
 ---

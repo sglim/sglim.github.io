@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "I started tracking my own hours"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2017-12-20 23:45:00 +0900
 categories: life
 ---

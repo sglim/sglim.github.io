@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Launch day"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2015-12-20 01:30:00 +0900
 categories: life
 ---

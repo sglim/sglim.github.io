@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "First winter in NYC, working Korea hours"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2022-12-20 23:50:00 -0500
 categories: life
 ---

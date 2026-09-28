@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "2019: growth, rest, regret"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2019-12-31 22:15:00 +0900
 categories: life
 ---

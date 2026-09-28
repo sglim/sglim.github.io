@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Leaving game dev for a startup"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2016-02-20 21:00:00 +0900
 categories: life
 ---

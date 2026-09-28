@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Reimplementing spreadsheet formulas"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2026-01-25 22:30:00 +0900
 categories: computer science
 ---

@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Never renumber a proto field"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2022-03-10 22:20:00 +0900
 categories: computer science
 ---

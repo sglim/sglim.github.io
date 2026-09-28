@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Reverse engineering a government login"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2025-12-22 23:40:00 +0900
 categories: computer science
 ---

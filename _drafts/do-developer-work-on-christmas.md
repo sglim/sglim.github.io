@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Do developer work on Christmas"
-author: Dennis Lim
+author: Seunggi Lim
 categories: life
 ---
 

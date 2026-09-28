@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Colored dots for my agents, in plain tmux"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2026-09-28 21:00:00 +0900
 categories: computer science
 ---

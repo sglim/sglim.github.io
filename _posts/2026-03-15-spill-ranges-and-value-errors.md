@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Spill ranges and #VALUE! errors"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2026-03-15 23:10:00 +0900
 categories: computer science
 ---

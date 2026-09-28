@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Rope Science"
-author: Dennis Lim
+author: Seunggi Lim
 categories: life
 ---
 

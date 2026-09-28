@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Two thousand commits in two months"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2026-06-25 23:30:00 +0900
 categories: computer science
 ---

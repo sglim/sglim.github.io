@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Migrating a game database with Django, of all things"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2015-09-15 23:40:00 +0900
 categories: computer science
 ---

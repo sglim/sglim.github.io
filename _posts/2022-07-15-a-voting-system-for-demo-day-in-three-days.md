@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "A voting system for demo day in three days"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2022-07-15 23:40:00 +0900
 categories: computer science
 ---

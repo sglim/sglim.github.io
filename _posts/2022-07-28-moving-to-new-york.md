@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Moving to New York"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2022-07-28 22:30:00 -0400
 categories: life
 ---

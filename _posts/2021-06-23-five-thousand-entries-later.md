@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Five thousand entries later"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2021-06-23 23:30:00 +0900
 categories: life
 ---

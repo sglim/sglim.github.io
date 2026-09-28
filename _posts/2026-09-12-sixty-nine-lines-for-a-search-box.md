@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Sixty-nine lines for a search box"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2026-09-12 08:30:00 +0900
 categories: computer science
 ---

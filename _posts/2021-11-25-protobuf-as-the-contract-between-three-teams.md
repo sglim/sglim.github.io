@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Protobuf as the contract between three teams"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2021-11-25 23:10:00 +0900
 categories: computer science
 ---

@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "A Mac Studio in one day, with nix"
-author    : Dennis Lim
+author    : Seunggi Lim
 date      : 2026-09-27 20:30:00 +0900
 categories: computer science
 ---
