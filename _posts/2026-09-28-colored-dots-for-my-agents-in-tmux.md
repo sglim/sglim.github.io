@@ -1,6 +1,6 @@
 ---
 layout    : post
-title     : "Colored dots for my agents, in plain tmux"
+title     : "Agent status tracking without herdr: plain tmux is enough"
 author    : Seunggi Lim
 date      : 2026-09-28 21:00:00 +0900
 categories: computer science
