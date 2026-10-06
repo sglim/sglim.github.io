@@ -6,7 +6,7 @@ date      : 2026-05-20 22:40:00 +0900
 categories: computer science
 ---
 
-There is a Mac mini on a shelf at home with no monitor attached. It runs my life. This post is about how that happened and what it does, because a few people asked.
+There is an M1 MacBook on a shelf at home, lid closed, with no monitor attached. It runs my life. This post is about how that happened and what it does, because a few people asked.
 
 It started with one script. I wanted a thing to run every morning and I did not want to think about it. On a Mac that means launchd, which is the system's job scheduler. You write a small property list file, put it in the right folder, and the system runs your job on the schedule you describe, restarts it if it dies, and logs where you tell it to. It is cron with opinions. The opinions are mostly good.
 
@@ -22,7 +22,7 @@ Development helpers. Backups, a git mirror, a job that checks whether my other m
 
 And the Stream Deck.
 
-I have one of those little fifteen button panels. The official software wants a desktop session and a logged in user. My Mac has neither. So I wrote a small daemon that talks to the device directly, no vendor app, and maps the buttons to things on the machine. Lights on and off. A scene. Play music to the speaker in the kitchen. Trigger a launchd job on demand instead of waiting for its schedule. Show a status light per server, green or red, so I can glance at the shelf and know if something is down.
+I have one of those little fifteen button panels. The official software wants a monitor. My Mac has none. So I wrote a small daemon that talks to the device directly, no vendor app, and maps the buttons to things on the machine. Lights on and off. A scene. Play music to the speaker in the kitchen. Trigger a launchd job on demand instead of waiting for its schedule. Show a status light per server, green or red, so I can glance at the shelf and know if something is down.
 
 It is the most satisfying thing I have built this year and it is maybe four hundred lines.
 
