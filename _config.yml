@@ -20,6 +20,7 @@ theme_config:
   appearance: "auto"
   appearance_toggle: true
   date_format: "%Y-%m-%d"
+  back_home_text: "home.."
   show_description: true
   show_navbar: true
   show_footer: false
