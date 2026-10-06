@@ -14,6 +14,8 @@ What changed about the work:
 
 I read more than I write. By a lot. My job has become review, direction, and taste. Whether the abstraction is right. Whether this is the file the change belongs in. Whether the test actually tests the thing. The typing is not the bottleneck anymore and it turns out it was never the interesting part.
 
+I looked at Screen Time for the four weeks from late April to late May, which covers most of the income tax filing month in Korea. iTerm was the top app on all twenty eight days, five to nine hours a day across my Macs. In the first full week it was forty three hours, against fourteen for Slack and nine for Chrome, and no editor made the top five. Claude Code runs in the terminal, so that is where my day goes now.
+
 The regression suite is the whole game. On the formula engine, and now on the integration project, the reason I can accept a change in thirty seconds is that a thousand cases will tell me if it broke something. Without that, review would have to be exhaustive and the pace would collapse. I said tests let you move fast. Now I would say tests are the speed limit. The better they are, the faster you are allowed to go.
 
 Commit messages became documentation. Two thousand commits, each saying what changed and why, in a consistent format, is a history I can actually search. I have gone back to a March commit to understand a June bug more than once. The agent writes better commit messages than I do, because it does not get tired at four pm.
