@@ -18,18 +18,22 @@ TypeScript/JavaScript (Node.js·NestJS·Web·React·React Native), Rust (WASM·F
 소상공인 대상 세무·회계 소프트웨어. 주 사용 기술: TypeScript (NestJS), Rust, AWS (EKS·Lambda), Pulumi
 
 **주요 성과**
-- 히든머니: 소상공인의 종합소득세 5개년을 다시 계산해 경정청구까지 해 주는 환급 서비스 (API·어드민·배치·결제·CI/CD)
-- 외부 벤더 블랙박스를 자체 엔진으로 교체: 국세청·여신협회 등 기관 웹 클라이언트를 순수 TypeScript 로 다시 구현해 AWS Lambda 에서 브라우저 없이 수집하고, 서비스마다 원본과 대조 검증 (2,000+ 커밋)
+- Savetax Refund (옛 이름 Hiddenmoney): 소상공인의 종합소득세 5개년을 다시 계산해 경정청구까지 해 주는 환급 서비스
+- 외부 라이선스 스크래핑 바이너리를 순수 TypeScript 엔진으로 교체: 국세청 홈택스 서비스 238개 중 237개 구현, 환급 수집 시간 약 8초 → 1.4~4.4초
 - 기관 서비스 188개 mock 서버를 실데이터 14,910건으로 검증해, 운영 데이터 없이 전체 파이프라인을 시험
-- Rust 스프레드시트 수식 엔진 (세무 엑셀 워크북을 셀 단위로 동일하게 계산), AWS Lambda 종합소득세 계산기·신고서 생성기
-- 급여 (급여 계산·원천세 전자신고·4대보험). 주민등록번호는 AES-256-GCM 암호문으로만 저장. 7주간 4,000+ 커밋 전량 리뷰
-- 개발자와 비개발자가 함께 쓰는 전사 AI 개발 하네스 (에이전트 규칙, 프로젝트별 위험·데이터 등급, 보안 리뷰 게이트, 시크릿 스캔)
+- Google Sheets 세금 계산기를 독립 실행 엔진으로 바꾸는 Rust 컴파일러: 151,779셀 종합소득세 시트에서 98.5% 일치
+- SAVE PRO: 외부 급여 SaaS 를 대체하는 자체 급여·세무 플랫폼. 복식부기 장부 한 벌에서 급여·원천세·부가세·법인세·종합소득세를 계산. 12주간 6,100+ 커밋
+- 신고대리 백오피스에서 122개 시트·9,408개 수식의 환급 스프레드시트를 TypeScript 로 옮겨, 45,160개 항목 중 98.1% 일치
+- BearTable: Postgres 기반 자체 Airtable 대체 (수식·자동화·폼·권한). 61만 행 수식 전량 재계산 시간을 절반으로
+- 슬랙을 Postgres 검색으로 모으고 사내 LLM 게이트웨이로 답하는 지식 허브
 
 **CTO 역할**
-- 플랫폼: EKS·ArgoCD·External Secrets, 자체 Forgejo, Fluent Bit → Elasticsearch·APM
-- 접근 통제: IAM 강제 MFA·IRSA, RDS IAM 인증, Vaultwarden 전사 비밀번호
-- 모든 AI 모델 호출 앞에 LiteLLM 을 두어 에이전트 비용 추적
-- 에이전트가 쓴 코드 리뷰 (월 수천 개의 작은 커밋)
+- 플랫폼: EKS·ArgoCD GitOps, Google SSO 를 붙인 자체 Forgejo·CI, Pulumi 상태를 KMS 암호화 S3 로 이전
+- ISMS-P 점검·조치: 버킷 41개 접근 로그, RDS 11개 전부 삭제 보호, 전 리전 GuardDuty, 운영 EKS 쓰기는 MFA 전용
+- 사내 Notion 지식 문서 852개 보안 점검
+- AI 시민 개발 프로그램 설계: 위험 등급, 개발자 리뷰 경계, 222명이 쓰는 공용 Claude Code 하네스
+- 비개발자가 Claude Code 로 종합소득세 계산기에 세법 커밋 270개+ 를 직접 반영하도록 지원
+- Amazon Bedrock 앞 LiteLLM 게이트웨이로 사용자별 Claude Code 사용량 측정, 호출 그래프로 diff 를 읽는 PR 리뷰 봇
 
 ### [Koodos Labs](https://koodos.com) — Software Engineer Lead · 2024.03 – 2025.02
 
