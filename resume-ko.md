@@ -5,7 +5,7 @@ permalink: /ko/resume/
 ---
 
 **임승기 (Seunggi Lim)** · 소프트웨어 엔지니어
-seung.gi.lim@gmail.com · [블로그](/) · [GitHub](https://github.com/sglim) · [About (English)](/about/)
+seung.gi.lim@gmail.com · [블로그](/) · [GitHub](https://github.com/sglim) · [About (English)](/about/) · [Resume (English)](/resume/)
 
 ## 기술
 
@@ -18,6 +18,7 @@ TypeScript/JavaScript (Node.js·NestJS·Web·React·React Native), Rust (WASM·F
 소상공인 대상 세무·회계 소프트웨어. 주 사용 기술: TypeScript (NestJS), Rust, AWS (EKS·Lambda), Pulumi
 
 **주요 성과**
+- AI 와 대규모로 일함: 맥 세 대에서 Claude Code 세션 50개 이상을 동시에 운영 (작성 시점 73개 열림, 한 시간 안에 최대 35개가 동시에 작업). 2026년 3월부터 2,537억 토큰, 일한 날 하루 기준 Anthropic 이 밝힌 기업 평균의 70배 이상. 모든 커밋은 사람이 검토
 - Savetax Refund (옛 이름 Hiddenmoney): 소상공인의 종합소득세 5개년을 다시 계산해 경정청구까지 해 주는 환급 서비스
 - Google Sheets 세금 계산기를 독립 실행 엔진으로 바꾸는 Rust 컴파일러: 종합소득세 시트 전체(151,779셀)에서 98.5% 일치
 - SAVE PRO: 외부 급여 SaaS 를 대체하는 자체 급여·세무 플랫폼. 복식부기 장부 한 벌에서 급여·원천세·부가세·법인세·종합소득세를 계산. 11주간 6,100+ 커밋 (하루 약 75개)
@@ -37,7 +38,7 @@ TypeScript/JavaScript (Node.js·NestJS·Web·React·React Native), Rust (WASM·F
 
 ### [Koodos Labs](https://koodos.com) — Software Engineer Lead · 2024.03 – 2025.02
 
-뉴욕 (일부 기간 한국에서 원격). 주 사용 기술: TypeScript (Node.js), Python, AWS (Pulumi), PostgreSQL
+뉴욕 (일부 기간 한국에서 원격). 주 사용 기술: TypeScript (Node.js·Next.js·tRPC), Supabase (Postgres), Kysely, Zod, AWS (ECS·Lambda·SQS·S3, Pulumi), Cloudflare Images, Grafana Loki
 
 - 사용자가 읽고·보고·듣고·플레이한 기록을 한곳에 모으는 앱 Shelf 의 데이터 플랫폼 담당
 - Netflix (IMDb 메타데이터)·Goodreads·Spotify·Apple Music·Steam·IGDB 싱커 개발
