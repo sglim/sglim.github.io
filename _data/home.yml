@@ -1,5 +1,7 @@
 navbar_entries:
   - title: about
     url: /about/
+  - title: 이력서
+    url: /ko/resume/
   - title: rss
     url: /feed.xml
