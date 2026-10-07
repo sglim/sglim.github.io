@@ -51,10 +51,8 @@ TypeScript/JavaScript (Node.js·NestJS·Web·React·React Native), Rust (WASM·F
 **주요 성과**
 - 비디오 코덱 지식을 바탕으로 Momenti 미디어 포맷의 설계·아키텍처 문서 작성
 - 자원이 제한된 환경에서도 모든 플랫폼에서 끊김 없이 재생되는 Momenti Player 아키텍처 설계
-- 프론트엔드 (Flutter·iOS·Web) 와 엔진 (Rust) 의 원인 불명 문제 해결
 - Rust 엔진을 WASM·FFI 로 여러 플랫폼에 배포
-- 설계 결함을 줄이기 위한 흐름도 정기 작성, 최신 비디오 코덱의 모션 벡터를 활용하는 방식 제안
-- 기술 공유 세션 진행, 엔지니어링 의사결정을 위한 RFC 프로세스 운영
+- 최신 비디오 코덱의 모션 벡터를 활용하는 방식 제안
 - 메이커·플레이어·어드민·엔진 사이 protobuf 계약 관리
 
 **직접 개발**
@@ -68,17 +66,10 @@ TypeScript/JavaScript (Node.js·NestJS·Web·React·React Native), Rust (WASM·F
 주 사용 기술: Kotlin (백엔드), Node.js, K8S, React, React Native, Flutter
 
 **주요 성과**
-- Skelter Labs 에서 분사하며 CTO 로 선임, 엔지니어 20명+ 조직 리드
-- Kyte·Playwings (iOS·Android·Web) 팀 관리
+- Skelter Labs 분사 때 CTO 를 맡아 두 제품 (Kyte·Playwings, iOS·Android·Web) 의 엔지니어 20명+ 리드
 - Kyte 를 항공에서 호텔로 확장: 공급사 10여 곳 호텔 통합 매칭, 룰 기반 객실 그룹핑 엔진
 - Playwings 핫딜 푸시 알림 시스템, 모바일 앱의 웹 버전 개발
 - 모노레포 재구성, Kotlin·Node·TypeScript protobuf 툴체인 통일, EKS 이전
-
-**CTO 역할**
-- 설계 문서 작성과 시스템 개발
-- 마케팅·영업·고객지원 팀과 협업
-- 엔지니어링 조직 구성과 평가
-- 일정 산정과 자원 배분
 
 ### Skelter Labs — Senior Software Engineer · 2016.03 – 2020.03
 
