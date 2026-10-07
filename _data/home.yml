@@ -3,7 +3,5 @@ navbar_entries:
     url: /about/
   - title: resume
     url: /resume/
-  - title: 이력서
-    url: /ko/resume/
   - title: rss
     url: /feed.xml

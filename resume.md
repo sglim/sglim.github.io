@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 **Seung-gi Lim** · Software Engineer
-seung.gi.lim@gmail.com · [Blog](/) · [GitHub](https://github.com/sglim) · [About](/about/) · [한국어](/ko/resume/)
+seung.gi.lim@gmail.com · [Blog](/) · [GitHub](https://github.com/sglim) · [About](/about/)
 
 ## Skills
 
