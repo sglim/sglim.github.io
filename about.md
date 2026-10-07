@@ -50,7 +50,7 @@ XL Games, Civilization Online, launched with 2K in 2015. [World and lobby server
 
 ## <a name="sap"></a>SAP HANA
 
-SAP Labs Korea, 2012 to mid-2014. PlanViz, the query optimizer's plan visualizer, and the optimizer itself. Java, C++, Eclipse RCP. To draw a plan well you have to understand it, a habit I [still keep]({% post_url 2021-04-25-a-cto-who-still-writes-yaml %}). Then half a year trying to start an IoT company on mesh networks and Zigbee. It did not work. XL Games in early 2015 with a drawer of dev boards.
+SAP Labs Korea, 2012 to 2013. PlanViz, the query optimizer's plan visualizer, and the optimizer itself. Java, C++, Eclipse RCP. To draw a plan well you have to understand it, a habit I [still keep]({% post_url 2021-04-25-a-cto-who-still-writes-yaml %}). Then a year and a half trying to start an IoT company on mesh networks and Zigbee, with contract work on the side. It did not work. XL Games in early 2015 with a drawer of dev boards.
 
 ## <a name="blockchain"></a>Two blockchain projects
 
