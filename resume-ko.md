@@ -19,8 +19,6 @@ TypeScript/JavaScript (Node.js·NestJS·Web·React·React Native), Rust (WASM·F
 
 **주요 성과**
 - Savetax Refund (옛 이름 Hiddenmoney): 소상공인의 종합소득세 5개년을 다시 계산해 경정청구까지 해 주는 환급 서비스
-- 외부 라이선스 스크래핑 바이너리를 순수 TypeScript 엔진으로 교체: 국세청 홈택스 서비스 238개 중 237개 구현, 환급 수집 시간 약 8초 → 1.4~4.4초
-- 기관 서비스 188개 mock 서버를 실데이터 14,910건으로 검증해, 운영 데이터 없이 전체 파이프라인을 시험
 - Google Sheets 세금 계산기를 독립 실행 엔진으로 바꾸는 Rust 컴파일러: 151,779셀 종합소득세 시트에서 98.5% 일치
 - SAVE PRO: 외부 급여 SaaS 를 대체하는 자체 급여·세무 플랫폼. 복식부기 장부 한 벌에서 급여·원천세·부가세·법인세·종합소득세를 계산. 12주간 6,100+ 커밋
 - 신고대리 백오피스에서 122개 시트·9,408개 수식의 환급 스프레드시트를 TypeScript 로 옮겨, 45,160개 항목 중 98.1% 일치
@@ -30,6 +28,8 @@ TypeScript/JavaScript (Node.js·NestJS·Web·React·React Native), Rust (WASM·F
 **CTO 역할**
 - 플랫폼: EKS·ArgoCD GitOps, Google SSO 를 붙인 자체 Forgejo·CI, Pulumi 상태를 KMS 암호화 S3 로 이전
 - ISMS-P 점검·조치: 버킷 41개 접근 로그, RDS 11개 전부 삭제 보호, 전 리전 GuardDuty, 운영 EKS 쓰기는 MFA 전용
+- ISMS-P 점검에서 나온 인터넷 노출 차단: 누구나 쓰고 지울 수 있던 버킷, 인터넷에 열린 MySQL·FTP, 몇 달씩 떠 있던 특권 파드 등
+- 개인정보 보호: 주민등록번호는 신고 위임 동의 뒤에만 암호화해 저장, 앱 설정에서 암호화 키 제거, 개발 키의 운영 개인정보 접근 차단
 - 사내 Notion 지식 문서 852개 보안 점검
 - AI 시민 개발 프로그램 설계: 위험 등급, 개발자 리뷰 경계, 222명이 쓰는 공용 Claude Code 하네스
 - 비개발자가 Claude Code 로 종합소득세 계산기에 세법 커밋 270개+ 를 직접 반영하도록 지원
