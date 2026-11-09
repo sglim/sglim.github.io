@@ -5,3 +5,5 @@ vendor
 .bundle
 .playwright-mcp
 _drafts/*-material.md
+
+.DS_Store
