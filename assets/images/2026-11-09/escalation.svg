@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 236" width="720" height="236" role="img" aria-label="Three rules on a timeline from September to November. Commit email: a warning on September 22, a louder warning on October 1, a block on October 8. git merge: in my instructions on September 20 and again on October 7, a hook on November 4. Sending to Slack: in the instructions on October 31, a hook on November 4.">
+  <style>
+    .card{fill:#f6f5f0;stroke:#d5d2c7}
+    .t{fill:#282828;font:600 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .s{fill:#665c54;font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .d{fill:#665c54;font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .grid{stroke:#d5d2c7;stroke-width:1;stroke-dasharray:3 4}
+    .row{stroke:#bdb9ad;stroke-width:2}
+    .said{fill:#f6f5f0;stroke:#7c6f64;stroke-width:2}
+    .warn{fill:#d79921}
+    .block{fill:#cc241d}
+    @media (prefers-color-scheme: dark){
+      .card{fill:#1d2021;stroke:#3c3836}
+      .t{fill:#ebdbb2}.s,.d{fill:#a89984}
+      .grid{stroke:#3c3836}.row{stroke:#504945}
+      .said{fill:#1d2021;stroke:#a89984}
+      .warn{fill:#fabd2f}.block{fill:#fb4934}
+    }
+  </style>
+  <rect class="card" x="1" y="1" width="718" height="234" rx="12"/>
+
+  <!-- legend -->
+  <circle class="said" cx="30" cy="30" r="6"/>
+  <text class="s" x="42" y="34">in the instructions</text>
+  <circle class="warn" cx="180" cy="30" r="6"/>
+  <text class="s" x="192" y="34">warning</text>
+  <rect class="block" x="254" y="24" width="12" height="12"/>
+  <text class="s" x="274" y="34">hook that blocks</text>
+
+  <!-- months: x = 180 + 9.27 * days since Sep 15 -->
+  <text class="d" x="254" y="66" text-anchor="middle">September</text>
+  <text class="d" x="472" y="66" text-anchor="middle">October</text>
+  <text class="d" x="653" y="66" text-anchor="middle">November</text>
+  <path class="grid" d="M328.4,56 L328.4,218"/>
+  <path class="grid" d="M615.8,56 L615.8,218"/>
+
+  <!-- row 1: commit email -->
+  <text class="t" x="24" y="104">Commit email</text>
+  <text class="s" x="24" y="120">not a team alias</text>
+  <path class="row" d="M244.9,104 L393.3,104"/>
+  <circle class="warn" cx="244.9" cy="104" r="6"/>
+  <circle class="warn" cx="328.4" cy="104" r="8"/>
+  <rect class="block" x="387.3" y="98" width="12" height="12"/>
+  <text class="d" x="244.9" y="88" text-anchor="middle">Sep 22</text>
+  <text class="d" x="328.4" y="88" text-anchor="middle">Oct 1</text>
+  <text class="d" x="393.3" y="88" text-anchor="middle">Oct 8</text>
+
+  <!-- row 2: git merge -->
+  <text class="t m" x="24" y="152">git merge</text>
+  <text class="s" x="24" y="168">my own instructions</text>
+  <path class="row" d="M226.4,152 L643.6,152"/>
+  <circle class="said" cx="226.4" cy="152" r="6"/>
+  <circle class="said" cx="384.0" cy="152" r="6"/>
+  <rect class="block" x="637.6" y="146" width="12" height="12"/>
+  <text class="d" x="226.4" y="136" text-anchor="middle">Sep 20</text>
+  <text class="d" x="384.0" y="136" text-anchor="middle">Oct 7</text>
+  <text class="d" x="643.6" y="136" text-anchor="middle">Nov 4</text>
+
+  <!-- row 3: sending to Slack -->
+  <text class="t" x="24" y="200">Sending to Slack</text>
+  <text class="s" x="24" y="216">the Slack skill</text>
+  <path class="row" d="M606.5,200 L643.6,200"/>
+  <circle class="said" cx="606.5" cy="200" r="6"/>
+  <rect class="block" x="637.6" y="194" width="12" height="12"/>
+  <text class="d" x="602" y="184" text-anchor="middle">Oct 31</text>
+  <text class="d" x="648" y="184" text-anchor="middle">Nov 4</text>
+</svg>
